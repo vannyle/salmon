@@ -1,0 +1,74 @@
+
+.header {
+  background-image: url("./img/norway.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 800px;
+}
+
+.header__menu {
+  position: relative;
+}
+
+.header__menu-list {
+  display: flex;
+  padding: 34px 134px;
+  justify-content: space-between;
+  line-height: 17px;
+  font-weight: 600;
+}
+
+.header__menu-language {
+  position: absolute;
+  display: flex;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.header__menu-icon {
+  margin-right: 10px;
+}
+
+.header__menu-arrow {
+  border: solid $color-text;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 4px;
+  transform: rotate(45deg);
+}
+
+.header__logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 600px;
+}
+
+.header__logo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 87px;
+  font-family: $ff-header;
+}
+
+
+.header__logo-name {
+  line-height: 27px;
+}
+
+.header__logo-slogan {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header__logo-text {
+  padding: 0 134px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38px;
+  text-align: center;
+}
+

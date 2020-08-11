@@ -1,0 +1,183 @@
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("/GothamProRegular.48808103.woff") format("woff"), url("/GothamProRegular.0adfbd6d.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("/GothamProBold.08a68299.woff") format("woff"), url("/GothamProBold.2d92f400.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+*::before, *::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  color: #00519C;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  font-size: 14px;
+  line-height: 24px;
+  box-sizing: border-box;
+}
+@media (max-width: 1024px) {
+  html,
+body {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  html,
+body {
+    font-size: 14px;
+  }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+h2 {
+  padding: 20px 0;
+  text-align: center;
+  line-height: 40px;
+  font-weight: 400;
+  font-size: 48px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #00519C;
+  text-decoration: none;
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.button {
+  padding: 10px 20px;
+  font-family: "Montserrat", "Arial", sans-serif;
+  color: #00519C;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 300;
+  border: none;
+  border-radius: 8px;
+  background-color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type=checkbox].visually-hidden,
+input[type=radio].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.header {
+  background-image: url("/norway.9b33dffd.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 800px;
+}
+
+.header__menu {
+  position: relative;
+}
+
+.header__menu-list {
+  display: flex;
+  padding: 34px 134px;
+  justify-content: space-between;
+  line-height: 17px;
+  font-weight: 600;
+}
+
+.header__menu-language {
+  position: absolute;
+  display: flex;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.header__menu-icon {
+  margin-right: 10px;
+}
+
+.header__menu-arrow {
+  border: solid #00519C;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 4px;
+  transform: rotate(45deg);
+}
+
+.header__logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 600px;
+}
+
+.header__logo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 87px;
+  font-family: "Gotham Pro", "Arial", sans-serif;
+}
+
+.header__logo-name {
+  line-height: 27px;
+}
+
+.header__logo-slogan {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header__logo-text {
+  padding: 0 134px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=/style.97fcb138.css.map */
