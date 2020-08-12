@@ -54,12 +54,17 @@ body {
   min-height: 100vh;
 }
 
+h1,
+h2 {
+  color: $color-primary;
+}
+
 h2 {
   padding: 20px 0;
   text-align: center;
-  line-height: 40px;
-  font-weight: 400;
-  font-size: 48px;
+  line-height: 44px;
+  font-weight: 300;
+  font-size: 36px;
 }
 
 img {
@@ -72,7 +77,7 @@ ul {
 }
 
 a {
-  color: $color-text;
+  color: $color-primary;
   text-decoration: none;
 }
 
@@ -82,18 +87,24 @@ a {
 }
 
 .button {
-  padding: 10px 20px;
+  padding: 10px 30px;
   font-family: $f-family;
-  color: $color-text;
+  color: $color-white;
   font-size: 18px;
   line-height: 24px;
-  font-weight: 300;
   border: none;
-  border-radius: 8px;
-  background-color: #ffffff;
+  border-radius: 23px;
+  background-color: $color-primary;
   cursor: pointer;
   outline: none;
   transition: all .2s;
+
+  &--outlined {
+    color: $color-primary;
+    background-color: $color-white;
+    border: 1px solid $color-primary;
+    border-radius: 25px;
+  }
 }
 
 .visually-hidden:not(:focus):not(:active),

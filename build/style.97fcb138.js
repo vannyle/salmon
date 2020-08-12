@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./fonts/GothamProRegular/GothamProRegular.woff":[["GothamProRegular.48808103.woff","fonts/GothamProRegular/GothamProRegular.woff"],"fonts/GothamProRegular/GothamProRegular.woff"],"./fonts/GothamProRegular/GothamProRegular.ttf":[["GothamProRegular.0adfbd6d.ttf","fonts/GothamProRegular/GothamProRegular.ttf"],"fonts/GothamProRegular/GothamProRegular.ttf"],"./fonts/GothamProBold/GothamProBold.woff":[["GothamProBold.08a68299.woff","fonts/GothamProBold/GothamProBold.woff"],"fonts/GothamProBold/GothamProBold.woff"],"./fonts/GothamProBold/GothamProBold.ttf":[["GothamProBold.2d92f400.ttf","fonts/GothamProBold/GothamProBold.ttf"],"fonts/GothamProBold/GothamProBold.ttf"],"./img/norway.png":[["norway.9b33dffd.png","img/norway.png"],"img/norway.png"],"_css_loader":"../../.nvm/versions/node/v14.3.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../.nvm/versions/node/v14.3.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./fonts/GothamProRegular/GothamProRegular.woff":[["GothamProRegular.48808103.woff","fonts/GothamProRegular/GothamProRegular.woff"],"fonts/GothamProRegular/GothamProRegular.woff"],"./fonts/GothamProRegular/GothamProRegular.ttf":[["GothamProRegular.0adfbd6d.ttf","fonts/GothamProRegular/GothamProRegular.ttf"],"fonts/GothamProRegular/GothamProRegular.ttf"],"./fonts/GothamProBold/GothamProBold.woff":[["GothamProBold.08a68299.woff","fonts/GothamProBold/GothamProBold.woff"],"fonts/GothamProBold/GothamProBold.woff"],"./fonts/GothamProBold/GothamProBold.ttf":[["GothamProBold.2d92f400.ttf","fonts/GothamProBold/GothamProBold.ttf"],"fonts/GothamProBold/GothamProBold.ttf"],"./img/norway.png":[["norway.9b33dffd.png","img/norway.png"],"img/norway.png"],"./img/ice_bg.png":[["ice_bg.0a631c13.png","img/ice_bg.png"],"img/ice_bg.png"],"_css_loader":"../../.nvm/versions/node/v14.3.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../.nvm/versions/node/v14.3.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64406" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62442" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 800px;
+  color: $color-primary;
 }
 
 .header__menu {
@@ -31,7 +32,7 @@
 }
 
 .header__menu-arrow {
-  border: solid $color-text;
+  border: solid $color-primary;
   border-width: 0 2px 2px 0;
   display: inline-block;
   padding: 4px;
@@ -53,7 +54,6 @@
   padding-top: 87px;
   font-family: $ff-header;
 }
-
 
 .header__logo-name {
   line-height: 27px;

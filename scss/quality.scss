@@ -1,0 +1,32 @@
+.quality {
+  background-color: $color-secondary;
+}
+
+.quality__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 50px;
+  min-height: 436px;
+}
+
+.quality__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quality__list {
+  display: flex;
+}
+
+.quality__item {
+  flex-basis: 262px;
+
+  span {
+    color: $color-primary;
+  }
+}
+
+.quality__text {
+  max-width: 530px;
+}
