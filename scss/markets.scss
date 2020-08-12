@@ -1,0 +1,11 @@
+.markets__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.markets__description {
+  max-width: 585px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

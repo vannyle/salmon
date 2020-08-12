@@ -401,4 +401,35 @@ input[type=radio].visually-hidden {
   font-size: 13px;
 }
 
+.trout {
+  background-image: url("/fish-bg.3342ef92.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.trout__wrapper {
+  min-height: 300px;
+  padding-top: 40px;
+  padding-bottom: 75px;
+  text-align: center;
+}
+
+.trout__description {
+  padding: 0 278px;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.markets__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.markets__description {
+  max-width: 585px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 /*# sourceMappingURL=/style.97fcb138.css.map */

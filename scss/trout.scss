@@ -1,0 +1,18 @@
+.trout {
+  background-image: url("./img/fish-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.trout__wrapper {
+  min-height: 300px;
+  padding-top: 40px;
+  padding-bottom: 75px;
+  text-align: center;
+}
+
+.trout__description {
+  padding: 0 278px;
+  font-size: 18px;
+  line-height: 32px;
+}
