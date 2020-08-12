@@ -52,7 +52,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   color: #00519C;
 }
 
@@ -62,6 +63,10 @@ h2 {
   line-height: 44px;
   font-weight: 300;
   font-size: 36px;
+}
+
+h3 {
+  font-weight: 500;
 }
 
 img {
@@ -275,6 +280,7 @@ input[type=radio].visually-hidden {
 }
 
 .quality {
+  margin-bottom: 40px;
   background-color: #EDF8FF;
 }
 
@@ -282,13 +288,18 @@ input[type=radio].visually-hidden {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 30px 50px;
+  padding: 30px 0 50px;
   min-height: 436px;
+}
+
+.quality__description {
+  text-align: center;
 }
 
 .quality__content {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
 .quality__list {
@@ -296,14 +307,98 @@ input[type=radio].visually-hidden {
 }
 
 .quality__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   flex-basis: 262px;
+  margin-right: 30px;
+  min-height: 165px;
 }
 .quality__item span {
+  font-size: 12px;
+  font-weight: 500;
   color: #00519C;
 }
 
 .quality__text {
   max-width: 530px;
+}
+
+.location {
+  background-image: url("/map.17eafa99.png");
+  background-color: #EDF8FF;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 40px;
+}
+
+.location__wrapper {
+  padding-top: 30px;
+  min-height: 780px;
+}
+
+.location__header {
+  max-width: 736px;
+  margin: 0 auto;
+}
+
+.location__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.location__item {
+  flex-basis: 262px;
+  min-height: 120px;
+  padding: 15px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgba(0, 35, 126, 0.06);
+}
+
+.location__details {
+  font-size: 13px;
+}
+
+.recipes {
+  background-color: #EDF8FF;
+}
+
+.recipes__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 630px;
+  padding: 30px 0 70px;
+}
+
+.recipes__list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -40px;
+}
+
+.recipes__item {
+  flex-basis: 555px;
+  min-height: 342px;
+  background-color: #ffffff;
+}
+
+.recipes__info {
+  padding: 18px 25px 25px;
+  text-align: center;
+}
+
+.recipes__name {
+  font-size: 16px;
+}
+
+.recipes__description {
+  font-size: 13px;
 }
 
 /*# sourceMappingURL=/style.97fcb138.css.map */

@@ -1,0 +1,38 @@
+.location {
+  background-image: url("./img/map.png");
+  background-color: $color-secondary;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 40px;
+}
+
+.location__wrapper {
+  padding-top: 30px;
+  min-height: 780px;
+}
+
+.location__header {
+  max-width: 736px;
+  margin: 0 auto;
+}
+
+.location__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.location__item {
+  flex-basis: 262px;
+  min-height: 120px;
+  padding: 15px;
+  margin-bottom: 30px;
+  background-color: $color-white;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgba(0, 35, 126, 0.06);
+}
+
+.location__details {
+  font-size: 13px;
+}

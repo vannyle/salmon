@@ -1,4 +1,5 @@
 .quality {
+  margin-bottom: 40px;
   background-color: $color-secondary;
 }
 
@@ -6,13 +7,18 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 30px 50px;
+  padding: 30px 0 50px;
   min-height: 436px;
+}
+
+.quality__description {
+  text-align: center;
 }
 
 .quality__content {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
 .quality__list {
@@ -20,9 +26,17 @@
 }
 
 .quality__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   flex-basis: 262px;
+  margin-right: 30px;
+
+  min-height: 165px;
 
   span {
+    font-size: 12px;
+    font-weight: 500;
     color: $color-primary;
   }
 }
